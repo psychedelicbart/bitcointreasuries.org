@@ -63,8 +63,17 @@ a:active{
 
 #content{
     text-align: left;
-    margin: 70px auto;
-    width: 800px;
+    margin: 60px auto 0;
+    height:450px;
+    max-width:966px;
+}
+#sshacks{
+	margin-top:-29px;
+	margin-bottom: -31px;
+}
+#sshacks-container{
+	display:block;
+	overflow:hidden;
 }
 
 #logo{
@@ -73,10 +82,10 @@ a:active{
 	margin-top:7%;
 	margin-bottom:20px;}
 
-h1{font-size:180%;}
+h1{font-size:180%;margin-top:11%;}
 
 #topm{
-    font-size: 14px;
+    font-size: 15px;
     display: block;
     top: 0;
     width: 100%;
@@ -86,9 +95,6 @@ h1{font-size:180%;}
     color: #FFF;
     background:#000;
     #border-bottom:2px solid #292929;
-}
-#sponsor a{
-    padding:0;
 }
 
 #topm a, 
@@ -102,6 +108,9 @@ h1{font-size:180%;}
     font-weight:bold;
 }
 
+#leftm{display:block;float:left;margin-left:12px;font-weight:bold;}
+#rightm{display:block;float:right;margin-right:12px;padding:0;}
+
 table.minimalistBlack {
   border: 0px solid #000000;
   width: 100%;
@@ -110,7 +119,7 @@ table.minimalistBlack {
 }
 table.minimalistBlack td, table.minimalistBlack th {
   border: 1px solid #000000;
-  padding: 5px 4px;
+  padding: 8px 9px;
 }
 table.minimalistBlack tbody td {
   font-size: 13px;
@@ -134,4 +143,33 @@ table.minimalistBlack tfoot td {
 .total{
 	font-weight:bold;
 	text-align:right!important;
+}
+td.total{
+	font-size:15px;
+}
+.symbol{
+	font-weight:bold;
+}
+.symbol:before {
+  content: "$";
+}
+table.minimalistBlack tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  background: #EBEBEB;
+  color: #000000;
+  border-top: 3px solid #000000;
+}
+table.minimalistBlack tfoot td {
+  font-size: 14px;
+}
+
+.small-print{
+  opacity: .4;
+  font-size: 65%;
+  margin-top: 0px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  line-height: 1.55;
 }
